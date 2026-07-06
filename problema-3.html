@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Problema 3 | Password</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <span class="brand__badge">03</span>
+      <div>
+        <p class="brand__eyebrow">Problema 3</p>
+        <h1>Validación de password</h1>
+      </div>
+    </div>
+    <a class="back-link" href="index.html">← Volver al inicio</a>
+  </header>
+
+  <main class="container">
+    <section class="challenge-card password-panel">
+      <p class="section-label">Password secreto</p>
+      <h2>Ingresa el password</h2>
+      <p>
+        Selecciona tres dígitos del 1 al 9 y presiona el botón Ingresar.
+      </p>
+
+      <div class="password-selects" aria-label="Selectores de password">
+        <select id="passwordDigitOne" aria-label="Primer dígito">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+        </select>
+
+        <select id="passwordDigitTwo" aria-label="Segundo dígito">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+        </select>
+
+        <select id="passwordDigitThree" aria-label="Tercer dígito">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+        </select>
+      </div>
+
+      <button id="passwordButton" class="button button--center" type="button">
+        Ingresar
+      </button>
+
+      <p id="passwordResult" class="result-message" aria-live="polite">
+        Selecciona un password.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Ejercicio resuelto concatenando valores de select y evaluando condiciones.</p>
+  </footer>
+
+  <script src="js/problema3.js"></script>
+</body>
+</html>

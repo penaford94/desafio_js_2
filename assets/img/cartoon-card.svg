@@ -1,0 +1,20 @@
+<svg width="640" height="440" viewBox="0 0 640 440" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="440" rx="42" fill="#6EC6FF"></rect>
+  <circle cx="512" cy="86" r="54" fill="#FFD84D" stroke="#1F1F1F" stroke-width="10"></circle>
+  <path d="M492 86C497 96 507 102 519 102C531 102 541 96 546 86" stroke="#1F1F1F" stroke-width="8" stroke-linecap="round"></path>
+  <circle cx="496" cy="72" r="6" fill="#1F1F1F"></circle>
+  <circle cx="530" cy="72" r="6" fill="#1F1F1F"></circle>
+  <path d="M0 324C76 286 132 312 196 330C288 356 375 292 456 320C534 347 581 342 640 306V440H0V324Z" fill="#80C342"></path>
+  <rect x="154" y="130" width="300" height="202" rx="28" fill="#FFF8D7" stroke="#1F1F1F" stroke-width="10"></rect>
+  <path d="M206 238C238 174 370 174 402 238C384 284 224 284 206 238Z" fill="#FF7AA8" stroke="#1F1F1F" stroke-width="10"></path>
+  <ellipse cx="304" cy="238" rx="62" ry="34" fill="#FFD84D" stroke="#1F1F1F" stroke-width="10"></ellipse>
+  <circle cx="253" cy="210" r="9" fill="#FFFFFF"></circle>
+  <circle cx="302" cy="201" r="9" fill="#FFFFFF"></circle>
+  <circle cx="350" cy="214" r="9" fill="#FFFFFF"></circle>
+  <circle cx="278" cy="262" r="8" fill="#FFFFFF"></circle>
+  <circle cx="333" cy="260" r="8" fill="#FFFFFF"></circle>
+  <path d="M190 116L166 80M418 116L444 80" stroke="#1F1F1F" stroke-width="10" stroke-linecap="round"></path>
+  <path d="M194 96L166 80L162 112" stroke="#1F1F1F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M416 96L444 80L448 112" stroke="#1F1F1F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"></path>
+  <text x="320" y="386" text-anchor="middle" font-family="Trebuchet MS, Arial, sans-serif" font-size="32" font-weight="900" fill="#1F1F1F">Click cartoon</text>
+</svg>

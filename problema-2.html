@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Problema 2 | Stickers</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <span class="brand__badge">02</span>
+      <div>
+        <p class="brand__eyebrow">Problema 2</p>
+        <h1>Pedido de stickers</h1>
+      </div>
+    </div>
+    <a class="back-link" href="index.html">← Volver al inicio</a>
+  </header>
+
+  <main class="container">
+    <section class="challenge-card">
+      <p class="section-label">Máximo 10 stickers</p>
+      <h2>Elige tus stickers cartoon</h2>
+      <p>
+        Ingresa la cantidad que quieres pedir de cada tipo. Puedes llevar hasta 10 stickers en total.
+      </p>
+
+      <div class="stickers-grid">
+        <article class="sticker-card">
+          <img src="assets/img/sticker-donut.svg" alt="Sticker original de dona rosada" />
+          <label for="stickerDonut">Sticker dona</label>
+          <input
+            id="stickerDonut"
+            class="sticker-input"
+            type="number"
+            min="0"
+            max="10"
+            step="1"
+            value="0"
+          />
+        </article>
+
+        <article class="sticker-card">
+          <img src="assets/img/sticker-nuclear-soda.svg" alt="Sticker original de bebida amarilla cartoon" />
+          <label for="stickerSoda">Sticker soda nuclear</label>
+          <input
+            id="stickerSoda"
+            class="sticker-input"
+            type="number"
+            min="0"
+            max="10"
+            step="1"
+            value="0"
+          />
+        </article>
+
+        <article class="sticker-card">
+          <img src="assets/img/sticker-sax.svg" alt="Sticker original de saxofón amarillo cartoon" />
+          <label for="stickerSax">Sticker sax amarillo</label>
+          <input
+            id="stickerSax"
+            class="sticker-input"
+            type="number"
+            min="0"
+            max="10"
+            step="1"
+            value="0"
+          />
+        </article>
+      </div>
+
+      <button id="verifyStickersButton" class="button button--center" type="button">
+        Verificar
+      </button>
+
+      <p id="stickersResult" class="result-message" aria-live="polite">
+        Ingresa cantidades y presiona verificar.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Ejercicio resuelto sumando inputs y usando condiciones.</p>
+  </footer>
+
+  <script src="js/problema2.js"></script>
+</body>
+</html>

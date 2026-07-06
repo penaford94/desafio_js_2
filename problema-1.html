@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Problema 1 | Imagen con borde</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <span class="brand__badge">01</span>
+      <div>
+        <p class="brand__eyebrow">Problema 1</p>
+        <h1>Imagen con borde</h1>
+      </div>
+    </div>
+    <a class="back-link" href="index.html">← Volver al inicio</a>
+  </header>
+
+  <main class="container">
+    <section class="challenge-card">
+      <p class="section-label">Click interactivo</p>
+      <h2>Haz click sobre la imagen</h2>
+      <p>
+        Al hacer click se agregará un borde rojo de 2 pixeles. Si la imagen ya tiene borde,
+        el siguiente click lo quitará.
+      </p>
+
+      <div class="single-image-wrapper">
+        <img
+          id="toggleBorderImage"
+          class="single-challenge-image"
+          src="assets/img/cartoon-card.svg"
+          alt="Ilustración cartoon amarilla original"
+        />
+      </div>
+
+      <p id="borderStatus" class="result-message" aria-live="polite">
+        La imagen no tiene borde.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Ejercicio resuelto con manipulación del DOM y condicionales.</p>
+  </footer>
+
+  <script src="js/problema1.js"></script>
+</body>
+</html>
